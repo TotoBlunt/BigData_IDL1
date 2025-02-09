@@ -23,7 +23,7 @@ Si no tienes un entorno virtual, puedes crear uno con el siguiente comando:
 
 Instrucciones de ejecución
 ```bash
-python -m venv venv```
+python -m venv venv bash```
 
 Esto creará un entorno virtual llamado venv. 
 
