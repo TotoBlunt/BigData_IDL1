@@ -31,24 +31,24 @@ Esto creará un entorno virtual llamado venv.
 ### 2. Activar el entorno virtual
 
 _ Windows:
-
+```bash
 .\venv\Scripts\activate
-
+```
 _ Linux/macOS:
-
+```bash
 source venv/bin/activate
-
+```
 ### 3. Instalar dependencias
 
 Instala las dependencias necesarias para el proyecto ejecutando:
-
+```bash
 pip install -r requirements.txt
-
+```
 Asegúrate de que el archivo requirements.txt tenga las siguientes dependencias:
-
+```bash
 pyspark
 pandas
-
+```
 ### 4. Configurar Apache Spark
 Asegúrate de tener Apache Spark configurado en tu máquina. Si no lo tienes, puedes seguir la guía de instalación oficial de Apache Spark: Documentación de Apache Spark.
 
@@ -61,9 +61,9 @@ También necesitarás configurar la variable de entorno SPARK_HOME para que apun
 Este script realiza el proceso de ETL. Extrae datos de un archivo CSV almacenado en HDFS, los transforma (limpieza de datos, agregación, etc.) y finalmente los carga nuevamente en HDFS.
 
 Instrucciones de ejecución
-
+```bash
 python ETL_data.py
-
+```
 Este script realiza las siguientes acciones:
 
 Carga los datos desde un archivo CSV en HDFS.
@@ -76,9 +76,9 @@ Guarda los resultados procesados nuevamente en HDFS.
 Este script ejecuta un procesamiento Batch sobre un conjunto de datos. Realiza un procesamiento periódico de los datos, y analiza las metricas de evaluacion.
 
 Instrucciones de ejecución
-
+```bash
 python Proc_batch.py.py
-
+```
 Este script realiza las siguientes acciones:
 
 Carga los datos desde HDFS o desde una fuente de datos configurada.
