@@ -21,9 +21,9 @@ Sigue estos pasos para configurar tu entorno virtual:
 
 Si no tienes un entorno virtual, puedes crear uno con el siguiente comando:
 
-```bash
+
 python -m venv venv
-Esto creará un entorno virtual llamado venv. ```bash
+Esto creará un entorno virtual llamado venv. 
 
 ### 2. Activar el entorno virtual
 
