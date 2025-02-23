@@ -1,0 +1,17 @@
+Comandos Hdfs:  
+
+-> listar carpetas : hdfs dfs -ls /
+-> crear carpetas en el directorio raiz: hdfs dfs -mkdir /nombre 
+-> copiar un archivo desde local a hdfs : hdfs dfs -put ruta_local /rutadestino_hdfs
+
+Comandos Spark:
+-> sbin/Encender spark: spark-class org.apache.spark.deploy.master.Master --host localhost --port 7077 --webui-port 8080
+-> bin/Encender Works: spark-class org.apache.spark.deploy.worker.Worker spark://localhost:7077
+
+Después de crear elentorno virtual:
+-> Setear Python: set PYSPARK_PYTHON=D:\Usuarios\Toto\Documentos\BigData\IDL2\Scripts\python.exe
+-> Iniciar proyecto: spark-submit --master spark://localhost:7077 archivo_a_usar.py
+
+Vscode:
+
+shift + tab -> borra los tabs del codigo
